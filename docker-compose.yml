@@ -1,0 +1,6 @@
+version: "3"
+services:
+  restserver:
+    build: ./
+    env_file:
+      - .env
